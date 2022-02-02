@@ -1,17 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Composition from './components/2-4.props/Composition';
-import Extraction from './components/2-4.props/Extraction/Extraction';
-import ClassComponent from './components/2-5.state/ClassComponent';
-import FunctionalComponent from './components/2-5.state/FunctionalComponent';
+import Condition from './components/2-8.ConditionalRendering/Condition';
+// import Event from './components/2-7.Event/Event';
+// import Composition from './components/2-4.props/Composition';
+// import Extraction from './components/2-4.props/Extraction/Extraction';
+// import ClassComponent from './components/2-5.state/ClassComponent';
+// import ClassComponent2 from './components/2-6.LifeCycle/ClassComponent';
+// import FunctionalComponent from './components/2-5.state/FunctionalComponent';
 
 function App() {
   return (
     <div className="App">
-      <FunctionalComponent />
+      <Condition />
+      {/* <Event /> */}
+      {/* <ClassComponent2 /> */}
+      {/* <FunctionalComponent />
       <ClassComponent/>
       <Extraction/>
-      <Composition/>
+      <Composition/> */}
     </div>
   );
 }

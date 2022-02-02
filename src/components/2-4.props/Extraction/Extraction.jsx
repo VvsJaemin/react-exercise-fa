@@ -46,6 +46,9 @@ function formatDate(date) {
 
   
 function Extraction() {
+    //props - 컴포넌트에 전달되는 단일 객체
+    // 순수함수처럼 동작 - > props를 수정해서 안됨(읽기 전용)
+    // 컴포넌트 합성은 여러 컴포넌트를 모은다. 컴포넌트 추출은 여러곳에서 사용되거나 복잡한 경우 추출한다. 
   return (
     <Comment
       date={comment.date}
