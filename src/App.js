@@ -6,6 +6,7 @@ import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 import Input from './components/3-7.HOC/Input';
 import Button from './components/3-7.HOC/Button';
 import Memo from './components/3-8.Memoization/Memo';
+import Example from './components/3-11.Portal/Example';
 // import List from './components/2-9.List/List';
 // import Condition from './components/2-8.ConditionalRendering/Condition';
 // import Event from './components/2-7.Event/Event';
@@ -18,7 +19,8 @@ import Memo from './components/3-8.Memoization/Memo';
 function App() {
   return (
     <div className="App">
-      <Memo/>
+      <Example/>
+      {/* <Memo/> */}
       {/* <Input/>
       <br/>
       <br/>
